@@ -1,0 +1,748 @@
+<div data-page="home" class="page">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="left"><a href="#" class="open-panel link icon-only"><i class="material-icons">menu</i></a></div>
+            <div class="center">Arubait</div>
+            <div class="right">
+                <a href="" class="link icon-only" onclick="cari()"><i class="material-icons" >search</i></a>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="floating-button floating-button-to-popover open-popover color-purple">
+        <i class="icon icon-plus"></i>
+    </a>
+    <form id="cari" data-search-list=".search-here" data-search-in=".item-title" class="searchbar searchbar-init">
+        <div class="searchbar-input">
+            <input type="search" placeholder="Search" style="color: white !important;">
+            <a href="#" class="searchbar-clear" onclick="pangkah()"></a>
+        </div>
+    </form>
+    <div class="toolbar tabbar">
+        <div class="toolbar-inner">
+            <a href="#tab1" class="tab-link active">Work</a>
+            <a href="#tab2" class="tab-link">Worker</a>
+            <a href="#tab3" class="tab-link">Book</a>
+            <a href="#tab4" class="tab-link">Confirm</a>
+            <a href="#tab5" class="tab-link">Favourite</a>
+            <span class="tab-link-highlight" style="width: 33.3333%; transform: translate3d(200%, 0px, 0px);"></span>
+        </div>
+    </div>
+    <div class="tabs-swipeable-wrap swiper-container swiper-container-horizontal swiper-container-android">
+        <div class="tabs swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+            <div id="tab1" class="page-content tab swiper-slide swiper-slide-active active" style="width: 360px;">
+                <div class="content-block page-home">
+                    <div class="row no-gutter">
+                        <div data-pagination=".swiper-pagination" data-paginationhide="true" class="swiper-container swiper-init ks-demo-slider swiper-container-horizontal swiper-container-android">
+                            <div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+                            <div class="swiper-wrapper">
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner2.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner2.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner2.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner2.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner2.jpg" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutter">
+                        <div class="col-100">
+                            <p>Category</p>
+                        </div>
+                    </div>
+                    <div class="row no-gutter">
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_work.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/Restoran.jpg" width="100%">
+                                            <p class="color-gray">Hotel/Restaurant</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_work.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/MediaArt.jpg" width="100%">
+                                            <p class="color-gray">Arts/Media</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_work.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/gomen.jpg" width="100%">
+                                            <p class="color-gray">Government</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_work.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/jambatan.jpg" width="100%">
+                                            <p class="color-gray">Architecture & Design</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_work.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/technical.jpg" width="100%">
+                                            <p class="color-gray">Technician</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_work.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/sales.jpg" width="100%">
+                                            <p class="color-gray">Sales & Marketing</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_work.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/tourism.jpg" width="100%">
+                                            <p class="color-gray">Tourism</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_worker.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/MediaArt.jpg" width="100%">
+                                            <p class="color-gray">Arts/Media</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="tab2" class="page-content tab swiper-slide swiper-slide-prev" style="width: 360px;">
+                <div class="content-block page-home">
+                    <div class="row no-gutter">
+                        <div data-pagination=".swiper-pagination" data-paginationhide="true" class="swiper-container swiper-init ks-demo-slider swiper-container-horizontal swiper-container-android">
+                            <div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+                            <div class="swiper-wrapper">
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner2.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner2.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner2.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner2.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner.jpg" width="100%">
+                                </div>
+                                <div style="width: 100%; heigth: 30vmin; " class="swiper-slide swiper-slide-active">
+                                    <img src="img/Banner2.jpg" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row no-gutter">
+                        <div class="col-100">
+                            <p>Category</p>
+                        </div>
+                    </div>
+                    <div class="row no-gutter">
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_work.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/Restoran.jpg" width="100%">
+                                            <p class="color-gray">Hotel/Restaurant</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_work.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/MediaArt.jpg" width="100%">
+                                            <p class="color-gray">Arts/Media</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_work.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/gomen.jpg" width="100%">
+                                            <p class="color-gray">Government</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_work.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/jambatan.jpg" width="100%">
+                                            <p class="color-gray">Architecture & Design</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_work.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/technical.jpg" width="100%">
+                                            <p class="color-gray">Technician</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_work.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/sales.jpg" width="100%">
+                                            <p class="color-gray">Sales & Marketing</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_work.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/tourism.jpg" width="100%">
+                                            <p class="color-gray">Tourism</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-50">
+                            <div class="card ks-facebook-card">
+                                <a href="list_worker.html">
+                                    <div class="card-content">
+                                        <div class="card-content-inner">
+                                            <img src="img/MediaArt.jpg" width="100%">
+                                            <p class="color-gray">Arts/Media</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="tab3" class="page-content tab swiper-slide" style="width: 360px;">
+                <div class="content-block top-adjust">
+                    <article>
+                        <div class="card ks-card-header-pic">
+
+                            <div class="navbar article">
+                                <div class="navbar-inner opacity-container-top">
+                                    <!--                            <div class="left"><a href="list_work.html" class="link icon-only"><i class="material-icons">arrow_back</i></a></div>-->
+                                    <div class="center"></div>
+                                    <div class="right">
+                                        <a href="#" class="link icon-only">
+                                            <i class="material-icons fav">star</i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-container">
+                                <a href="list_work_aizal.html"><img class="profile-header" src="img/Mohd_Chan.jpg" />
+                                    <div class="opacity-container" style="bottom:5px;">
+                                        <div class="profile-info">
+                                            <div class="row no-gutter" style="text-align: left;">
+                                                <div class="col-100 info" style="text-align: left;font-weight:;font-size: 5vmin;">Mohd Chan</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!--
+                    <a href="list_work_aizal.html" style="background-image:url(img/Mohd_Chan.jpg);width:100%;margin: 0 auto;" valign="bottom" class="card-header color-white no-border">
+                        <div class="opacity-container">
+                            <div class="profile-info">
+                                <div class="row no-gutter" style="text-align: left;">
+                                    <div class="col-100 info" style="text-align: left;font-weight:;font-size: 5vmin;">Mohd Chan</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+-->
+                            <div class="card-footer">
+                                <div class="item-media"><img width="30" height="30" style="border-radius:100% padding-top: 5px;" src="img/gambar2.jpg"></div>
+                                <div class="item-inner" style="margin-left: 20px;">
+                                    <div class="item-title-row" style="">
+                                        <div class="item-title">Aizal Manan</div>
+                                    </div>
+                                    <div class="item-subtitle" style="font-weight: lighter;">Employee Name</div>
+                                </div>
+                                <div class="icon-social"><a href="#" class="link icon-only" style="color: green; margin-right: 5px;">confirm</a></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <br>
+                    <article>
+                        <div class="card ks-card-header-pic">
+                            <div class="navbar article">
+                                <div class="navbar-inner opacity-container-top">
+                                    <!--                            <div class="left"><a href="list_work.html" class="link icon-only"><i class="material-icons">arrow_back</i></a></div>-->
+                                    <div class="center"></div>
+                                    <div class="right">
+                                        <a href="#" class="link icon-only">
+                                            <i class="material-icons fav">star</i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-container">
+                                <a href="list_work_amirul.html"><img class="profile-header" src="img/Mee_Tarik.jpg" />
+                                    <div class="opacity-container" style="bottom:5px;">
+                                        <div class="profile-info">
+                                            <div class="row no-gutter" style="text-align: left;">
+                                                <div class="col-100 info" style="text-align: left;font-weight:;font-size: 5vmin;">Mee Tarik Asli</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!--
+                    <a href="list_work_amirul.html" style="background-image:url(img/Mee_Tarik.jpg);width:100%;margin: 0 auto;" valign="bottom" class="card-header color-white no-border">
+                        <div class="opacity-container">
+                            <div class="profile-info">
+                                <div class="row no-gutter" style="text-align: left;">
+                                    <div class="col-100 info" style="text-align: left;font-weight:;font-size: 5vmin;">Mohd Chan</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+-->
+                            <div class="card-footer">
+                                <div class="item-media">
+                                    <img width="30" height="30" style="border-radius:100% padding-top: 5px;" src="img/gambar1.jpg">
+                                </div>
+                                <div class="item-inner" style="margin-left: 20px; text-align: left;">
+                                    <div class="item-title-row" style="">
+                                        <div class="item-title">Amirul Ghanie Jaffar</div>
+                                    </div>
+                                    <div class="item-subtitle" style="font-weight: lighter;">Employee Name</div>
+                                </div>
+                                <div class="icon-social"><a href="#" class="link icon-only" style="color: green; margin-right: 5px;">confirm</a></div>
+                            </div>
+                        </div>
+                    </article>
+                    <br>
+                    <article>
+                        <div class="card ks-card-header-pic">
+                            <div class="navbar article">
+                                <div class="navbar-inner opacity-container-top">
+                                    <!--                            <div class="left"><a href="list_work.html" class="link icon-only"><i class="material-icons">arrow_back</i></a></div>-->
+                                    <div class="center"></div>
+                                    <div class="right">
+                                        <a href="#" class="link icon-only">
+                                            <i class="material-icons fav">star</i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="header-container">
+                                <a href="list_work_zul.html"><img class="profile-header" src="img/wong_solo.jpg" />
+                                    <div class="opacity-container" style="bottom:5px;">
+                                        <div class="profile-info">
+                                            <div class="row no-gutter" style="text-align: left;">
+                                                <div class="col-100 info" style="text-align: left;font-weight:;font-size: 5vmin;">Wong Solo</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!--
+                    <a href="list_work_zul.html" style="background-image:url(img/wong_solo.jpg);width:100%;margin: 0 auto;" valign="bottom" class="card-header color-white no-border">
+                        <div class="opacity-container">
+                            <div class="profile-info">
+                                <div class="row no-gutter" style="text-align: left;">
+                                    <div class="col-100 info" style="text-align: left;font-weight:;font-size: 5vmin;">Wong Solo</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+-->
+                            <div class="card-footer">
+                                <div class="item-media">
+                                    <img width="30" height="30" style="border-radius:100% padding-top: 5px;" src="img/gambar3.jpg">
+                                </div>
+                                <div class="item-inner" style="margin-left: 20px;">
+                                    <div class="item-title-row" style="">
+                                        <div class="item-title">Fikri Lee</div>
+                                    </div>
+                                    <div class="item-subtitle" style="font-weight: lighter;">Employee Name</div>
+                                </div>
+                                <div class="icon-social"><a href="#" class="link icon-only" style="color: green; margin-right: 5px;">confirm</a></div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div id="tab4" class="page-content tab swiper-slide" style="width: 360px;">
+                <div class="content-block top-adjust">
+                    <div class="list-block accordion-list">
+                        <ul>
+                            <li class="accordion-item">
+                                <a href="#" class="item-link item-content">
+                                    <div class="item-inner">
+                                        <div class="row">
+                                            <div class="col-100">
+                                                <div class="row" style="font-size: 3vmin; text-align: left;">
+                                                    <img width="30" height="30" style="border-radius:100%" src="img/gambar1.jpg" />
+                                                    <div class="author-name">Mohd Amirul Ghanie
+                                                        <br><span style="color: grey;">Employee</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </a>
+                                <div class="accordion-item-content" style="">
+                                    <div class="list-block">
+                                        <article>
+                                            <div class="card ks-card-header-pic">
+                                                <div class="card-footer">
+                                                    <div class="col-100">
+                                                        <div class="row" style="padding-top:10px;text-align: left;">
+                                                            <div class="col-100">
+                                                                <div class="row">
+                                                                    <div class="col-100" style="text-align: left;color: green;font-weight: bold;">$15</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-100" style="text-align: left; font-weight: lighter;">Location</div>
+                                                            <div class="col-100" style="text-align: left;font-weight: bold;">Cyberjaya, Selangor</div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-100" style="text-align: left; font-weight: lighter;">Date</div>
+                                                            <div class="col-100" style="text-align: left;font-weight: bold;">25 December 2016</div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-100" style="text-align: left; font-weight: lighter;">Job type</div>
+                                                            <div class="col-100" style="text-align: left;font-weight: bold;">Cleaner</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="accordion-item">
+                                <a href="#" class="item-link item-content">
+                                    <div class="item-inner">
+                                        <div class="row">
+                                            <div class="col-100">
+                                                <div class="row" style="font-size: 3vmin;text-align: left;">
+                                                    <img width="30" height="30" style="border-radius:100%" src="img/gambar3.jpg" />
+                                                    <div class="author-name">Fikri Lee
+                                                        <br><span style="color: grey;">Employee</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </a>
+                                <div class="accordion-item-content" style="">
+                                    <div class="list-block">
+                                        <article>
+                                            <div class="card ks-card-header-pic">
+                                                <div class="card-footer">
+                                                    <div class="col-100">
+                                                        <div class="row" style="padding-top:10px;text-align: left;">
+                                                            <div class="col-100">
+                                                                <div class="row">
+                                                                    <div class="col-100" style="text-align: left;color: green;font-weight: bold;">$24</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-100" style="text-align: left; font-weight: lighter;">Location</div>
+                                                            <div class="col-100" style="text-align: left;font-weight: bold;">Bandar Tasik Selatan, Kuala Lumpur</div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-100" style="text-align: left; font-weight: lighter;">Date</div>
+                                                            <div class="col-100" style="text-align: left;font-weight: bold;">10 January 2016</div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-100" style="text-align: left; font-weight: lighter;">Job type</div>
+                                                            <div class="col-100" style="text-align: left;font-weight: bold;">Cashier</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="accordion-item">
+                                <a href="#" class="item-link item-content">
+                                    <div class="item-inner">
+                                        <div class="row">
+                                            <div class="col-100">
+                                                <div class="row" style="font-size: 3vmin; text-align: left;">
+                                                    <img width="30" height="30" style="border-radius:100%" src="img/gambar2.jpg" />
+                                                    <div class="author-name">Aizal Manan
+                                                        <br><span style="color: grey;">Employee</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </a>
+                                <div class="accordion-item-content" style="">
+                                    <div class="list-block">
+                                        <article>
+                                            <div class="card ks-card-header-pic">
+
+                                                <div class="card-footer">
+                                                    <div class="col-100">
+                                                        <div class="row" style="padding-top:10px;text-align: left;">
+                                                            <div class="col-100">
+                                                                <div class="row">
+                                                                    <div class="col-100" style="text-align: left;color: green;font-weight: bold;">$15</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-100" style="text-align: left; font-weight: lighter;">Location</div>
+                                                            <div class="col-100" style="text-align: left;font-weight: bold;">Kajang, Selangor</div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-100" style="text-align: left; font-weight: lighter;">Date</div>
+                                                            <div class="col-100" style="text-align: left;font-weight: bold;">5 December 2016</div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-100" style="text-align: left; font-weight: lighter;">Job type</div>
+                                                            <div class="col-100" style="text-align: left;font-weight: bold;">Waiter</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content-block-title" style="font-weight: lighter;">TOTAL ALL CONFIRM: <span style="color: #ff2525; font-weight: bolder;">RM XXXXX</span>
+                    </div>
+                </div>
+            </div>
+            <div id="tab5" class="page-content tab swiper-slide" style="width: 360px;">
+                <div class="content-block top-adjust">
+                    <article>
+                        <div class="card ks-card-header-pic">
+
+                            <div class="navbar article">
+                                <div class="navbar-inner opacity-container-top">
+                                    <div class="center"></div>
+                                    <div class="right">
+                                        <a href="#" class="link icon-only">
+                                            <i class="material-icons fav color-change">star</i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-container">
+                                <a href="list_work_aizal.html"><img class="profile-header" src="img/Mohd_Chan.jpg" />
+                                    <div class="opacity-container" style="bottom:5px;">
+                                        <div class="profile-info">
+                                            <div class="row no-gutter" style="text-align: left;">
+                                                <div class="col-100 info" style="text-align: left;font-weight:;font-size: 5vmin;">Mohd Chan</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <div class="item-media"><img width="30" height="30" style="border-radius:100% padding-top: 5px;" src="img/gambar2.jpg"></div>
+                                <div class="item-inner" style="margin-left: 20px;">
+                                    <div class="item-title-row" style="">
+                                        <div class="item-title">Aizal Manan</div>
+                                    </div>
+                                    <div class="item-subtitle" style="font-weight: lighter;">Employee Name</div>
+                                </div>
+                                <div class="icon-social"><a href="#" class="link icon-only"><i class="material-icons fav" style="color: green;">add_shopping_cart</i></a></div>
+                            </div>
+                        </div>
+                    </article>
+                    <br>
+                    <article>
+                        <div class="card ks-card-header-pic">
+                            <div class="navbar article">
+                                <div class="navbar-inner opacity-container-top">
+                                    <!--                            <div class="left"><a href="list_work.html" class="link icon-only"><i class="material-icons">arrow_back</i></a></div>-->
+                                    <div class="center"></div>
+                                    <div class="right">
+                                        <a href="#" class="link icon-only">
+                                            <i class="material-icons fav color-change">star</i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-container">
+                                <a href="list_work_amirul.html"><img class="profile-header" src="img/Mee_Tarik.jpg" />
+                                    <div class="opacity-container" style="bottom:5px;">
+                                        <div class="profile-info">
+                                            <div class="row no-gutter" style="text-align: left;">
+                                                <div class="col-100 info" style="text-align: left;font-weight:;font-size: 5vmin;">Mee Tarik Asli</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <div class="item-media"><img width="30" height="30" style="border-radius:100% padding-top: 5px;" src="img/gambar1.jpg"></div>
+                                <div class="item-inner" style="margin-left: 20px;">
+                                    <div class="item-title-row" style="">
+                                        <div class="item-title">Amirul Ghanie Jaffar</div>
+                                    </div>
+                                    <div class="item-subtitle" style="font-weight: lighter;">Employee Name</div>
+                                </div>
+                                <div class="icon-social"><a href="#" class="link icon-only"><i class="material-icons fav" style="color: green;">add_shopping_cart</i></a></div>
+                            </div>
+                        </div>
+                    </article>
+                    <br>
+                    <article>
+                        <div class="card ks-card-header-pic">
+                            <div class="navbar article">
+                                <div class="navbar-inner opacity-container-top">
+                                    <!--                            <div class="left"><a href="list_work.html" class="link icon-only"><i class="material-icons">arrow_back</i></a></div>-->
+                                    <div class="center"></div>
+                                    <div class="right">
+                                        <a href="#" class="link icon-only">
+                                            <i class="material-icons fav color-change">star</i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-container">
+                                <a href="list_work_zul.html"><img class="profile-header" src="img/wong_solo.jpg" />
+                                    <div class="opacity-container" style="bottom:5px;">
+                                        <div class="profile-info">
+                                            <div class="row no-gutter" style="text-align: left;">
+                                                <div class="col-100 info" style="text-align: left;font-weight:;font-size: 5vmin;">Wong Solo</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-footer">
+                                <div class="item-media"><img width="30" height="30" style="border-radius:100% padding-top: 5px;" src="img/gambar3.jpg"></div>
+                                <div class="item-inner" style="margin-left: 20px;">
+                                    <div class="item-title-row" style="">
+                                        <div class="item-title">Fikri Lee</div>
+                                    </div>
+                                    <div class="item-subtitle" style="font-weight: lighter;">Employee Name</div>
+                                </div>
+                                <div class="icon-social"><a href="#" class="link icon-only"><i class="material-icons fav" style="color: green;">add_shopping_cart</i></a></div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
