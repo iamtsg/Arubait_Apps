@@ -70,6 +70,7 @@ $$(document).on('pageInit', function (e) {
 
 
 
+
 function gotPic(event) {
     if (event.target.files.length === 1 && event.target.files[0].type.indexOf('img/') === 0) {
         $$('#avatar').attr('src', URL.createObjectURL(event.target.files[0]));
@@ -192,6 +193,13 @@ function cari() {
 function pangkah() {
     $('form#cari').removeClass('layer searchbar-active');
 }
+
+//function add_advert() {
+//    
+////    $('div.tukar:nth-child(1)').html().replace('active','saya');
+//    $('div.tukar').replaceWith('<h2>New heading</h2>');
+//    alert($('div.tukar').html());
+//}
 
 //function fav() {
 //    $('.fav').addClass('color-change');

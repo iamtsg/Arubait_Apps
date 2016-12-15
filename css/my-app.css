@@ -269,6 +269,31 @@ i.material-icons.done {
     color: #4caf50;
 }
 
+i.material-icons.fav.list {
+    color: #a3a3a3;
+}
+
+i.material-icons.high-rating {
+    color: #FFEB3B;
+    font-size: 5vmin;
+}
+
+i.material-icons.low-rating {
+    color: white;
+    font-size: 5vmin;
+    opacity: 0.5;
+}
+
+i.material-icons.small-rating {
+    color: #f66c26;
+    font-size: 3vmin;
+}
+
+i.material-icons.small-unrating {
+    color: #717171;
+    font-size: 3vmin;
+}
+
 
 /*
 ===============================================
@@ -445,10 +470,24 @@ p.color-gray {
 
 .cnfrm .button {
     background: rgba(0, 0, 0, 0) linear-gradient(135deg, #7bcdf3 0%, #358cb5 100%) repeat scroll 0 0;
+    font-size: 4vmin;
 }
 
 .layer {
     z-index: 999 !important;
+}
+
+.icon .badge {
+    margin-left: 0px;
+    top: -5px;
+}
+
+.icon-tab.material-icons {
+    color: grey;
+}
+
+.tab-link.active .icon-tab.material-icons {
+    color: #f66c26;
 }
 
 @media screen and (min-width: 760px) {

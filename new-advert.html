@@ -9,8 +9,6 @@
                         <div class="center">New Advert</div>
                     </div>
                 </div>
-
-
                 <div class="page-content">
                     <div class="list-block">
                         <ul>
@@ -27,11 +25,22 @@
                             </li>
                             <li>
                                 <div class="item-content">
-                                    <div class="item-media"><i class="icon material-icons">description</i></div>
+                                    <div class="item-media"><i class="icon material-icons">attach_money</i></div>
                                     <div class="item-inner">
-                                        <div class="item-title floating-label">Description</div>
+                                        <div class="item-title floating-label">Price</div>
                                         <div class="item-input">
-                                            <textarea class="resizable" style="height: 37px;"></textarea>
+                                            <input type="text" placeholder="Price">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content">
+                                    <div class="item-media"><i class="icon material-icons">today</i></div>
+                                    <div class="item-inner not-empty-state">
+                                        <div class="item-title label">Date</div>
+                                        <div class="item-input item-input-field not-empty-state">
+                                            <input type="date" placeholder="Insert Date" class="not-empty-state">
                                         </div>
                                     </div>
                                 </div>
@@ -47,6 +56,7 @@
                                     </div>
                                 </div>
                             </li>
+                            <!--
                             <li>
                                 <div class="item-content">
                                     <div class="item-media"><i class="icon material-icons">my_location</i></div>
@@ -58,25 +68,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li>
-                                <div class="item-content">
-                                    <div class="item-media"><i class="icon material-icons">verified_user</i></div>
-                                    <div class="item-inner">
-                                        <div class="item-title floating-label">Type</div>
-                                        <div class="col-100">
-                                            <div class="row">
-                                                <div class="item-input item-input-field not-empty-state">
-                                                    <select class="not-empty-state">
-                                                        <option>Work</option>
-                                                        <option>Worker</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </li>
+-->
                             <li>
                                 <div class="item-content">
                                     <div class="item-media"><i class="icon material-icons">view_module</i></div>
@@ -101,31 +93,19 @@
                             </li>
                             <li>
                                 <div class="item-content">
-                                    <div class="item-media"><i class="icon material-icons">attach_money</i></div>
+                                    <div class="item-media"><i class="icon material-icons">description</i></div>
                                     <div class="item-inner">
-                                        <div class="item-title floating-label">Price</div>
+                                        <div class="item-title floating-label">Description</div>
                                         <div class="item-input">
-                                            <input type="text" placeholder="Price">
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="item-content">
-                                    <div class="item-media"><i class="icon material-icons">attach_money</i></div>
-                                    <div class="item-inner">
-                                        <div class="item-title label">Image</div>
-                                        <div class="item-input item-input-field">
-                                            <input type="file" capture="camera" accept="img/*" id="avatarCapture">
-                                            <img id="avatar">
+                                            <textarea class="resizable" style="height: 37px;"></textarea>
                                         </div>
                                     </div>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                    <div class="content-block lgn"><a href="confirm-advert.html" class="button button-big">Confirm</a>
-                        
+                    <div class="content-block cnfrm"><a href="home2.html" class="button button-big" onclick="add_advert()">Confirm</a>
+
                     </div>
 
                 </div>
