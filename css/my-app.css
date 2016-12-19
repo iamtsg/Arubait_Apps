@@ -459,7 +459,7 @@ p.color-gray {
 
 .navbar-inner.opacity-container-top {
     background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.5));
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
     color: #fff;
     margin: 0;
     position: absolute;
@@ -488,6 +488,14 @@ p.color-gray {
 
 .tab-link.active .icon-tab.material-icons {
     color: #f66c26;
+}
+
+a.item-link.item-content.noti-tag {
+    background: #eaeaea;
+}
+
+.noti-tag .item-text {
+    color: black;
 }
 
 @media screen and (min-width: 760px) {

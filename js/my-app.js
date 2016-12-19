@@ -47,12 +47,30 @@ $$(document).on('click', '.alert-text', function () {
     });
 });
 
+
+$$(document).on('click', '.logout', function () {
+    myApp.modal({
+        title: 'Are sure want to exit ?',
+        buttons: [{
+            text: 'OK',
+            onClick: function () {
+              window.open("index.html","_self");
+            }
+    }, {
+            text: 'Cancel',
+            //            onClick: function () {
+            //                myApp.alert('You clicked Cancel!');
+            //            }
+    }, ]
+    });
+});
+
+
+
+
+
 $$(document).on('click', '.fav', function () {
-    if ($(this).hasClass('color-change')) {
-        $(this).removeClass('color-change');
-    } else {
-        $(this).addClass('color-change');
-    }
+    $(this).toggleClass('color-change')
 });
 
 $$(document).on('pageInit', function (e) {
@@ -67,6 +85,8 @@ $$(document).on('pageInit', function (e) {
     });
 
 });
+
+
 
 
 
